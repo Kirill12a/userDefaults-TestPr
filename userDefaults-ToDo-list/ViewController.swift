@@ -27,21 +27,7 @@ class ViewController: UIViewController {
         streetField.text = defaults.string(forKey: KeyForDataBase.street.rawValue)
         houseField.text  = defaults.string(forKey: KeyForDataBase.house.rawValue)
         buildField.text  = defaults.string(forKey: KeyForDataBase.build.rawValue)
-        flatField.text   = defaults.string(forKey: KeyForDataBase.flat.rawValue)
-        //        sayHello(userAge: "23") { name in
-        //            print(name)
-        //        } comletion: {_ in
-        //            print("Hello all user in the worls")
-        //        }
-    }
-    
-    //    func sayHello(userAge:String,sayHello: (String)-> Void, comletion: @escaping((String)->Void) ) {
-    //        let userName = "Kirill"
-    //        comletion(userName + userAge)
-    //    }
-    //
-    
-    
+        flatField.text   = defaults.string(forKey: KeyForDataBase.flat.rawValue) 
     
     @IBAction func saveAction(_ sender: Any) {
         let city   =   cityField.text!
