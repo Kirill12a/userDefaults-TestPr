@@ -42,9 +42,6 @@ class ViewController: UIViewController {
             defaults.setValue(build,  forKey:   KeyForDataBase.build.rawValue)
             defaults.setValue(flat,   forKey:   KeyForDataBase.flat.rawValue)            
         }
-        
-        
-    }
-    
+    }  
 }
 
