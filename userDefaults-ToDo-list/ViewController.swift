@@ -40,9 +40,7 @@ class ViewController: UIViewController {
             defaults.setValue(street, forKey:   KeyForDataBase.street.rawValue)
             defaults.setValue(house,  forKey:   KeyForDataBase.house.rawValue)
             defaults.setValue(build,  forKey:   KeyForDataBase.build.rawValue)
-            defaults.setValue(flat,   forKey:   KeyForDataBase.flat.rawValue)
-            
-            
+            defaults.setValue(flat,   forKey:   KeyForDataBase.flat.rawValue)            
         }
         
         
